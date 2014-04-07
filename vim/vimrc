@@ -1,6 +1,5 @@
 execute pathogen#infect()
 syntax on
-set number
 colorscheme monokai
 filetype plugin indent on
-set omnifunc=syntaxcomplete#Complete
+map <c-f> :call JsBeautify()<cr>
